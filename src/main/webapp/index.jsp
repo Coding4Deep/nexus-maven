@@ -53,7 +53,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://via.placeholder.com/150" alt="Deepak Sagar" class="profile-img">
+        
         <h1>Deepak Sagar</h1>
         <p>Software Developer | DevOps Engineer | Cloud Engineer</p>
         
