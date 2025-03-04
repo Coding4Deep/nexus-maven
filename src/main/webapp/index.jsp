@@ -66,7 +66,7 @@
         
         <div class="section">
             <h2>Education</h2>
-            <p>Bachelor’s Degree in Information Technology - NIT RAIPUR</p>
+            <p>Bachelor Degree in Information Technology - NIT RAIPUR</p>
         </div>
     </div>
 </body>
