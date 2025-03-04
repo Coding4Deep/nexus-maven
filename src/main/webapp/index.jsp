@@ -36,12 +36,12 @@
     <div class="container">
         <header>
             <h1>Deepak Sagar</h1>
-            <p>Software Developer | DevOps Engineer | Clooud Enginer</p>
+            <p>Software Developer | DevOps Engineer | Clooud Engineer</p>
         </header>
         
         <div class="section contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:johndoe@example.com">sagardeepak2002@example.com</a></p>
+            <p>Email: <a href="mailto:sagardeepak2002@example.com">sagardeepak2002@example.com</a></p>
             <p>GitHub: <a href="https://github.com/Coding4Deep" target="_blank">github.com/Coding4Deep</a></p>
             <p>LinkedIn: <a href="https://linkedin.com/in/deepaksagar07" target="_blank">linkedin.com/in/deepaksagar07</a></p>
         </div>
