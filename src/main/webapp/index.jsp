@@ -3,59 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Deepak Sagar - Resume</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
             padding: 0;
-            background: #f4f4f4;
-            color: #333;
         }
         .container {
-            width: 60%;
+            max-width: 800px;
             margin: 50px auto;
-            background: #fff;
+            background: white;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            text-align: center;
         }
-        h1, h2 {
-            color: #007bff;
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
-        .section {
-            margin-bottom: 20px;
+        h1 {
+            color: #0073e6;
         }
         .contact a {
-            color: #007bff;
+            display: inline-block;
+            margin: 10px;
             text-decoration: none;
+            font-size: 20px;
+            color: #0073e6;
+        }
+        .contact a:hover {
+            color: #005bb5;
+        }
+        .section {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Deepak Sagar</h1>
-            <p>Software Developer | DevOps Engineer | Clooud Engineer</p>
-        </header>
+        <img src="https://via.placeholder.com/150" alt="Deepak Sagar" class="profile-img">
+        <h1>Deepak Sagar</h1>
+        <p>Software Developer | DevOps Engineer | Cloud Engineer</p>
         
-        <div class="section contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:sagardeepak2002@example.com">sagardeepak2002@example.com</a></p>
-            <p>GitHub: <a href="https://github.com/Coding4Deep" target="_blank">github.com/Coding4Deep</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/deepaksagar07" target="_blank">linkedin.com/in/deepaksagar07</a></p>
+        <div class="contact">
+            <a href="mailto:sagardeepak2002@example.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://github.com/Coding4Deep" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/deepaksagar07" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
-        
+
         <div class="section">
             <h2>Skills</h2>
-            <ul>
-                <li>GoLang, Python, Java</li>
-                <li>Docker, Kubernetes, Terraform</li>
-                <li>CI/CD, Jenkins, Git</li>
-                <li>AWS, GCP, Azure</li>
-            </ul>
+            <p>GoLang, Python, Java</p>
+            <p>Docker, Kubernetes, Terraform</p>
+            <p>CI/CD, Jenkins, Git</p>
+            <p>AWS, GCP, Azure</p>
         </div>
-        
+
         <div class="section">
             <h2>Experience</h2>
             <h3>Software Developer - ABC Corp</h3>
@@ -63,10 +78,10 @@
             <h3>DevOps Engineer - XYZ Ltd</h3>
             <p>Implemented CI/CD pipelines and containerized applications using Docker and Kubernetes.</p>
         </div>
-        
+
         <div class="section">
             <h2>Education</h2>
-            <p>Bachelor Degree in Information Technology - NIT RAIPUR</p>
+            <p>Bachelor's Degree in Information Technology - NIT Raipur</p>
         </div>
     </div>
 </body>
