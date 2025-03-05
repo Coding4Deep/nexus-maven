@@ -65,8 +65,8 @@
 
         <div class="section">
             <h2>Skills</h2>
-            <p>GoLang, Python, Java</p>
-            <p>Docker, Kubernetes, Terraform</p>
+            <p>GoLang, Python, c++,java</p>
+            <p>Docker, Kubernetes,ansible, Terraform</p>
             <p>CI/CD, Jenkins, Git</p>
             <p>AWS, GCP, Azure</p>
         </div>
